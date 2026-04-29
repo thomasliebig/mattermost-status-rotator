@@ -1,0 +1,101 @@
+# Mattermost Status Rotator
+
+A lightweight Chrome extension that automatically rotates your Mattermost custom status from a local text file.
+
+It integrates directly into the Mattermost app bar and lets you toggle the rotation on/off with a single click.
+
+![Toggle Button](images/statusrotator.png)
+
+---
+
+## ✨ Features
+
+- 🔁 Automatically rotates your custom status every 5 minutes
+- 📂 Reads statuses from a local `.txt` file
+- 💾 Persists current position across reloads
+- 🧠 Supports emoji (converted to Mattermost shortcodes)
+- 🎛️ Toggle directly from the Mattermost app bar
+- ⚫ Visual indicator (active / inactive)
+
+---
+
+## 📦 Installation (Developer Mode)
+
+1. Clone or download this repository
+2. Open Chrome and go to:
+   chrome://extensions/
+3. Enable **Developer mode** (top right)
+4. Click **Load unpacked**
+5. Select the folder:
+   mattermost-status-rotator/
+
+---
+
+## 🚀 Usage
+
+1. Open your Mattermost instance in the browser
+2. Click the new icon in the **app bar**
+3. Select a status file (or use the provided sample)
+4. The rotator starts automatically
+
+Click again to stop.
+
+---
+
+## 📝 Status File Format
+
+Use one status per line.
+
+### Recommended (Mattermost-compatible):
+:brain: Thinking about ML theory  
+:rocket: Shipping ideas  
+:pretzel: German efficiency pending approval  
+
+### Alternative (emoji-based):
+🧠 Thinking about ML theory  
+🚀 Shipping ideas  
+🥨 German efficiency pending approval  
+
+> Emojis are automatically mapped to Mattermost shortcodes when possible.
+
+---
+
+## 📁 Project Structure
+
+.
+├── mattermost-status-rotator/   # Chrome extension (load this)
+├── mattermost-status.txt        # Example status file
+├── images/
+│   └── statusrotator.png               # UI screenshot
+└── README.md
+
+---
+
+## ⚠️ Notes
+
+- Requires Mattermost with custom status API enabled
+- Works best in Chromium-based browsers (Chrome, Edge, Brave, etc.)
+- File access requires user interaction (browser security restriction)
+
+---
+
+## 🔒 Privacy
+
+- No data is sent anywhere
+- All processing happens locally in your browser
+- Status file is never uploaded
+
+---
+
+## 💡 Ideas / Future Work
+
+- Options page instead of file picker
+- Cloud sync / shared status lists
+- Smart/context-aware status updates
+- Cross-browser support (Firefox)
+
+---
+
+## 🛠️ License
+
+MIT

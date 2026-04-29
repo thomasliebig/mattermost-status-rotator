@@ -1,0 +1,18 @@
+🐛 Debugging something that worked yesterday
+🧠 Context switching at O(n²) cost
+💻 Compiling… personality not included
+🔁 Refactoring instead of progressing
+📦 Shipping features with hidden side effects
+🧩 Dependency conflict as a lifestyle
+🛠️ Fixing one bug, creating three
+🧮 Estimating complexity (wild guess)
+🚨 It works on my machine
+📉 Performance degraded after “optimization”
+🧪 Testing in production (accidentally)
+🧵 Threading carefully through chaos
+🧊 Frozen screen, frozen thoughts
+🔍 Grepping for answers in the void
+🧱 Building abstractions nobody needs
+⚙️ Configuring things until they break
+🧯 Rolling back with confidence
+🚀 Deploying hope to production
