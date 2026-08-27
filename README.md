@@ -91,6 +91,10 @@ Use one status per line.
 - All processing happens locally in your browser
 - Status file is never uploaded
 
+## How it differs from a Mattermost bot
+
+Mattermost Status Rotator is a local browser extension, not a server plugin or chat bot. It needs no bot account, webhook, hosted scheduler, or external database. Use a bot or server integration instead when statuses must be centrally managed for multiple users or changed while the browser is closed.
+
 ---
 
 ## 💡 Ideas / Future Work
@@ -108,4 +112,4 @@ MIT
 
 ## Contributing
 
-Bug reports and focused pull requests are welcome. If this extension is useful in your Mattermost workspace, consider starring the repository so other Mattermost users can find it.
+Bug reports and focused pull requests are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md). If this extension is useful in your Mattermost workspace, consider starring the repository so other Mattermost users can find it.
