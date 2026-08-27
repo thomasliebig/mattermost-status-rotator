@@ -1,8 +1,10 @@
 # Mattermost Status Rotator
 
-A lightweight Chrome extension that automatically rotates your Mattermost custom status from a local text file.
+A privacy-friendly Chrome extension that automatically rotates your Mattermost custom status from a local text file. It works with self-hosted Mattermost and Mattermost Cloud in Chromium-based browsers.
 
 It integrates directly into the Mattermost app bar and lets you toggle the rotation on/off with a single click.
+
+**Good for:** rotating availability messages, team announcements, focus modes, on-call notes, quotes, or playful status lines without a bot, server, or cloud service.
 
 ![Toggle Button](images/statusrotator.png)
 
@@ -21,9 +23,13 @@ It integrates directly into the Mattermost app bar and lets you toggle the rotat
 
 ## 📦 Installation (Developer Mode)
 
-1. Clone or download this repository
+1. Clone this repository or use **Code → Download ZIP**:
+
+   ```bash
+   git clone https://github.com/thomasliebig/mattermost-status-rotator.git
+   ```
 2. Open Chrome and go to:
-   chrome://extensions/
+   `chrome://extensions/`
 3. Enable **Developer mode** (top right)
 4. Click **Load unpacked**
 5. Select the folder:
@@ -99,3 +105,7 @@ Use one status per line.
 ## 🛠️ License
 
 MIT
+
+## Contributing
+
+Bug reports and focused pull requests are welcome. If this extension is useful in your Mattermost workspace, consider starring the repository so other Mattermost users can find it.
